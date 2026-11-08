@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Binusha Fernando | Full Stack Developer</title>
+  <meta name="description" content="Software Engineering undergraduate skilled in Java, Spring Boot, React, Next.js and TypeScript." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="logo">B<span>.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn-talk">Let's Talk</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="hi">Hi, I'm</p>
+      <h1>Binusha Fernando</h1>
+      <h2 class="gradient-text"><span id="typing"></span><span class="cursor">|</span></h2>
+      <p class="desc">
+        Software Engineering undergraduate building full-stack web apps with
+        Java, Spring Boot, React, Next.js and TypeScript. I love AI-powered
+        features, clean code and solving real-world problems.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="Binusha_Fernando_CV.pdf" download class="btn btn-outline">Download CV <i class="fa-solid fa-download"></i></a>
+      </div>
+
+      <div class="socials">
+        <a href="https://github.com/Binusha0826" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/binusha-fernando-72945339b" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:binushafernando2004@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+  <div class="glow-circle">
+  <pre class="code-bg"><code id="codeTyping"></code><span class="code-cursor">|</span></pre>
+</div>
+  <div class="orbit orbit-1"></div>
+  <div class="orbit orbit-2"></div>
+  <img src="images/me.png" alt="Binusha Fernando" />
+
+  <div class="status-card">
+    <div class="status-top">
+      <span>Open to<br>internship roles</span>
+      <i class="dot"></i>
+    </div>
+    <p>Looking for a Full Stack / Software Engineering internship.</p>
+  </div>
+</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2 class="section-title reveal">About <span class="gradient-word">Me</span></h2>
+
+    <div class="about-content">
+      <div class="photo-wrap reveal">
+        <div class="ring ring-static"></div>
+        <div class="ring ring-spin"></div>
+        <div class="photo-circle">
+          <img src="images/about.jpg" alt="Binusha Fernando" />
+        </div>
+      </div>
+
+      <h3 class="about-role reveal">Software Engineering Undergraduate</h3>
+
+      <p class="about-text reveal">
+        Motivated Software Engineering undergraduate with hands-on experience
+        building full-stack web applications using Java, Spring Boot, React,
+        Next.js and TypeScript. I develop REST APIs, integrate AI-powered
+        features, work with databases and deploy responsive web applications.
+        I'm seeking a Full Stack or Software Engineering internship to
+        contribute to real-world projects and grow as a Software Engineer.
+      </p>
+
+      <div class="about-more" id="aboutMore">
+        <div class="more-grid">
+  <div class="more-item">
+    <i class="fa-solid fa-graduation-cap"></i>
+    <div>
+      <h4>Education</h4>
+      <p>BSc (Hons) in Software Engineering<br>NIBM, 2024 - Present</p>
+    </div>
+  </div>
+
+  <div class="more-item">
+    <i class="fa-solid fa-certificate"></i>
+    <div class="more-body">
+      <h4>Certifications</h4>
+      <div class="rotator" id="certRotator"></div>
+    </div>
+  </div>
+
+  <div class="more-item">
+    <i class="fa-solid fa-trophy"></i>
+    <div class="more-body">
+      <h4>Activities &amp; Achievements</h4>
+      <div class="rotator" id="actRotator"></div>
+    </div>
+  </div>
+
+  <div class="more-item">
+    <i class="fa-solid fa-users"></i>
+    <div>
+      <h4>Membership</h4>
+      <p>IEEE Student Member<br>IEEE Student Branch of NIBM</p>
+    </div>
+  </div>
+</div>
+      </div>
+
+      <div class="about-btns reveal">
+        <button class="btn btn-primary" id="readMoreBtn">Read More</button>
+        <a href="Binusha_Fernando_CV.pdf" download class="btn btn-outline">Download CV <i class="fa-solid fa-download"></i></a>
+      </div>
+
+      <div class="stats reveal">
+  <div class="stat-card"><h3 class="count" data-key="projects">0</h3><p>Projects</p></div>
+  <div class="stat-card"><h3 class="count" data-key="certifications">0</h3><p>Certifications</p></div>
+  <div class="stat-card"><h3 class="count" data-key="achievements">0</h3><p>Activities</p></div>
+</div>
+    </div>
+  </section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <h2 class="section-title reveal">My <span class="gradient-word">Projects</span></h2>
+  <div class="projects-list" id="projectsList"></div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <h2 class="section-title reveal">My <span class="gradient-word">Skills</span></h2>
+  <p class="section-sub reveal">Technologies and tools I work with</p>
+  <div class="skills-grid" id="skillsGrid"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2 class="section-title reveal">Get In <span class="gradient-word">Touch</span></h2>
+  <p class="section-sub reveal">Have an internship opportunity or a project in mind? Let's talk.</p>
+
+  <div class="contact-wrap">
+    <div class="contact-info reveal" id="contactInfo"></div>
+
+    <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/xgaabdze" method="POST">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <input type="text" name="subject" placeholder="Subject" />
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-primary" id="sendBtn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Binusha Fernando. All rights reserved.</p>
+  <div class="socials" id="footerSocials"></div>
+</footer>
+
+
+  <script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
